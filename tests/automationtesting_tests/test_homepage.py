@@ -23,7 +23,7 @@ class TestHomePage:
         homepage.click_on_shop_menu()
         homepage.click_on_home_menu_button()
         sliders_set = homepage.test_whether_home_page_has_three_sliders_only()
-        assert(len(sliders_set), 3)
+        assert len(sliders_set) == 3
 
     @allure.title("Home page with three Arrivals only")
     @allure.description("1) Open the browser\n" +
@@ -39,7 +39,7 @@ class TestHomePage:
         homepage.click_on_home_menu_button()
         homepage.scroll_to_arrivals_images()
         arrivals_count = homepage.get_arrivals_count()
-        assert (arrivals_count, 3)
+        assert arrivals_count == 3
 
     @allure.title("Home page - Images in arrivals should navigate")
     @allure.description("1) Open the browser\n" +
@@ -58,7 +58,7 @@ class TestHomePage:
         homepage.click_on_home_menu_button()
         homepage.scroll_to_arrivals_images()
         arrivals_count = homepage.get_arrivals_count()
-        assert (arrivals_count, 3)
+        assert arrivals_count == 3
         homepage.open_selenium_ruby_arrival_add_to_basket()
         homepage.click_on_home_menu_button()
         homepage.scroll_to_arrivals_images()
@@ -93,26 +93,26 @@ class TestHomePage:
         homepage.click_on_home_menu_button()
         homepage.scroll_to_arrivals_images()
         arrivals_count = homepage.get_arrivals_count()
-        assert (arrivals_count, 3)
+        assert arrivals_count == 3
 
         homepage.open_selenium_ruby_arrival_add_to_basket()
         product_name = productpage.get_product_name().split()[0]
         productpage.click_description_tab()
-        assert (product_name in productpage.get_description(), True)
+        assert product_name in productpage.get_description()
         homepage.click_site_logo()
         homepage.scroll_to_arrivals_images()
 
         homepage.open_html_arrival_add_to_basket()
         product_name = productpage.get_product_name().split()[2]
         productpage.click_description_tab()
-        assert (product_name in productpage.get_description(), True)
+        assert product_name in productpage.get_description()
         homepage.click_site_logo()
         homepage.scroll_to_arrivals_images()
 
         homepage.open_javascript_arrival_add_to_basket()
         product_name = productpage.get_product_name().split()[1]
         productpage.click_description_tab()
-        assert (product_name in productpage.get_description(), True)
+        assert product_name in productpage.get_description()
         productpage.click_basket_price()
         BasketPage(self.driver).verify_items_in_basket_page()
 
@@ -136,7 +136,7 @@ class TestHomePage:
         homepage.click_on_home_menu_button()
         homepage.scroll_to_arrivals_images()
         arrivals_count = homepage.get_arrivals_count()
-        assert (arrivals_count, 3)
+        assert arrivals_count == 3
 
         homepage.open_selenium_ruby_arrival_add_to_basket()
         product_name = productpage.get_product_name()
@@ -181,11 +181,11 @@ class TestHomePage:
         homepage.click_on_home_menu_button()
         homepage.scroll_to_arrivals_images()
         arrivals_count = homepage.get_arrivals_count()
-        assert (arrivals_count, 3)
+        assert arrivals_count == 3
 
         basket_price = productpage.get_basket_price()
         homepage.open_selenium_ruby_arrival_add_to_basket()
-        assert (basket_price + productpage.get_product_price(), productpage.get_basket_price())
+        assert basket_price + productpage.get_product_price() == productpage.get_basket_price()
         product_name = productpage.get_product_name()
         productpage.click_basket_price()
         basket_items = basketpage.get_basket_items()
@@ -195,7 +195,7 @@ class TestHomePage:
 
         basket_price = productpage.get_basket_price()
         homepage.open_html_arrival_add_to_basket()
-        assert (basket_price + productpage.get_product_price(), productpage.get_basket_price())
+        assert basket_price + productpage.get_product_price() == productpage.get_basket_price()
         product_name = productpage.get_product_name()
         productpage.click_basket_price()
         basket_items = basketpage.get_basket_items()
@@ -205,7 +205,7 @@ class TestHomePage:
 
         basket_price = productpage.get_basket_price()
         homepage.open_javascript_arrival_add_to_basket()
-        assert (basket_price + productpage.get_product_price(), productpage.get_basket_price())
+        assert basket_price + productpage.get_product_price() == productpage.get_basket_price()
         product_name = productpage.get_product_name()
         productpage.click_basket_price()
         basket_items = basketpage.get_basket_items()
@@ -238,16 +238,16 @@ class TestHomePage:
         homepage.click_on_home_menu_button()
         homepage.scroll_to_arrivals_images()
         arrivals_count = homepage.get_arrivals_count()
-        assert (arrivals_count, 3)
+        assert arrivals_count == 3
 
         basket_price = productpage.get_basket_price()
         homepage.open_selenium_ruby_arrival_add_to_basket()
-        assert (basket_price + productpage.get_product_price(), productpage.get_basket_price())
+        assert basket_price + productpage.get_product_price() == productpage.get_basket_price()
         product_name = productpage.get_product_name()
         product_stock = productpage.get_product_stock()
         productpage.click_basket_price()
         basket_items = basketpage.get_basket_items()
-        assert product_name in basket_items, True
+        assert product_name in basket_items
         basketpage.update_quantity(product_stock)
         basketpage.click_update_basket_button()
 
@@ -264,12 +264,12 @@ class TestHomePage:
 
         basket_price = productpage.get_basket_price()
         homepage.open_html_arrival_add_to_basket()
-        assert (basket_price + productpage.get_product_price(), productpage.get_basket_price())
+        assert basket_price + productpage.get_product_price() == productpage.get_basket_price()
         product_name = productpage.get_product_name()
         product_stock = productpage.get_product_stock()
         productpage.click_basket_price()
         basket_items = basketpage.get_basket_items()
-        assert product_name in basket_items, True
+        assert product_name in basket_items
         basketpage.update_quantity(product_stock)
         basketpage.click_update_basket_button()
         basketpage.click_product_name()
@@ -284,12 +284,12 @@ class TestHomePage:
 
         basket_price = productpage.get_basket_price()
         homepage.open_javascript_arrival_add_to_basket()
-        assert (basket_price + productpage.get_product_price(), productpage.get_basket_price())
+        assert basket_price + productpage.get_product_price() == productpage.get_basket_price()
         product_name = productpage.get_product_name()
         product_stock = productpage.get_product_stock()
         productpage.click_basket_price()
         basket_items = basketpage.get_basket_items()
-        assert product_name in basket_items, True
+        assert product_name in basket_items
         basketpage.update_quantity(product_stock)
         basketpage.click_update_basket_button()
         basketpage.click_product_name()
@@ -325,35 +325,35 @@ class TestHomePage:
         homepage.click_on_home_menu_button()
         homepage.scroll_to_arrivals_images()
         arrivals_count = homepage.get_arrivals_count()
-        assert (arrivals_count, 3)
+        assert arrivals_count == 3
 
         basket_price = productpage.get_basket_price()
         homepage.open_selenium_ruby_arrival_add_to_basket()
-        assert (basket_price + productpage.get_product_price(), productpage.get_basket_price())
+        assert basket_price + productpage.get_product_price() == productpage.get_basket_price()
         product_name = productpage.get_product_name()
         productpage.click_basket_price()
         basket_items = basketpage.get_basket_items()
-        assert product_name in basket_items, True
+        assert product_name in basket_items
         homepage.click_site_logo()
         homepage.scroll_to_arrivals_images()
 
         basket_price = productpage.get_basket_price()
         homepage.open_html_arrival_add_to_basket()
-        assert (basket_price + productpage.get_product_price(), productpage.get_basket_price())
+        assert basket_price + productpage.get_product_price() == productpage.get_basket_price()
         product_name = productpage.get_product_name()
         productpage.click_basket_price()
         basket_items = basketpage.get_basket_items()
-        assert product_name in basket_items, True
+        assert product_name in basket_items
         homepage.click_site_logo()
         homepage.scroll_to_arrivals_images()
 
         basket_price = productpage.get_basket_price()
         homepage.open_javascript_arrival_add_to_basket()
-        assert (basket_price + productpage.get_product_price(), productpage.get_basket_price())
+        assert basket_price + productpage.get_product_price() == productpage.get_basket_price()
         product_name = productpage.get_product_name()
         productpage.click_basket_price()
         basket_items = basketpage.get_basket_items()
-        assert product_name in basket_items, True
+        assert product_name in basket_items
         productpage.click_basket_price()
         BasketPage(self.driver).verify_items_in_basket_page()
 
@@ -382,35 +382,35 @@ class TestHomePage:
         homepage.click_on_home_menu_button()
         homepage.scroll_to_arrivals_images()
         arrivals_count = homepage.get_arrivals_count()
-        assert (arrivals_count, 3)
+        assert arrivals_count == 3
 
         basket_price = productpage.get_basket_price()
         homepage.open_selenium_ruby_arrival_add_to_basket()
-        assert (basket_price + productpage.get_product_price(), productpage.get_basket_price())
+        assert basket_price + productpage.get_product_price() == productpage.get_basket_price()
         product_name = productpage.get_product_name()
         productpage.click_basket_price()
         basket_items = basketpage.get_basket_items()
-        assert product_name in basket_items, True
+        assert product_name in basket_items
         homepage.click_site_logo()
         homepage.scroll_to_arrivals_images()
 
         basket_price = productpage.get_basket_price()
         homepage.open_html_arrival_add_to_basket()
-        assert (basket_price + productpage.get_product_price(), productpage.get_basket_price())
+        assert basket_price + productpage.get_product_price() == productpage.get_basket_price()
         product_name = productpage.get_product_name()
         productpage.click_basket_price()
         basket_items = basketpage.get_basket_items()
-        assert product_name in basket_items, True
+        assert product_name in basket_items
         homepage.click_site_logo()
         homepage.scroll_to_arrivals_images()
 
         basket_price = productpage.get_basket_price()
         homepage.open_javascript_arrival_add_to_basket()
-        assert (basket_price + productpage.get_product_price(), productpage.get_basket_price())
+        assert basket_price + productpage.get_product_price() == productpage.get_basket_price()
         product_name = productpage.get_product_name()
         productpage.click_basket_price()
         basket_items = basketpage.get_basket_items()
-        assert product_name in basket_items, True
+        assert product_name in basket_items
         productpage.click_basket_price()
         basketpage.verify_items_in_basket_page()
         basketpage.enter_coupon_code("krishnasakinala")
@@ -443,37 +443,37 @@ class TestHomePage:
         homepage.click_on_home_menu_button()
         homepage.scroll_to_arrivals_images()
         arrivals_count = homepage.get_arrivals_count()
-        assert (arrivals_count, 3)
+        assert arrivals_count == 3
 
         basket_price = productpage.get_basket_price()
         homepage.open_selenium_ruby_arrival_add_to_basket()
-        assert (basket_price + productpage.get_product_price(), productpage.get_basket_price())
+        assert basket_price + productpage.get_product_price() == productpage.get_basket_price()
         product_name = productpage.get_product_name()
         productpage.click_basket_price()
         basket_items = basketpage.get_basket_items()
-        assert product_name in basket_items, True
+        assert product_name in basket_items
         basketpage.click_remove_button()
         homepage.click_site_logo()
         homepage.scroll_to_arrivals_images()
 
         basket_price = productpage.get_basket_price()
         homepage.open_html_arrival_add_to_basket()
-        assert (basket_price + productpage.get_product_price(), productpage.get_basket_price())
+        assert basket_price + productpage.get_product_price() == productpage.get_basket_price()
         product_name = productpage.get_product_name()
         productpage.click_basket_price()
         basket_items = basketpage.get_basket_items()
-        assert product_name in basket_items, True
+        assert product_name in basket_items
         basketpage.click_remove_button()
         homepage.click_site_logo()
         homepage.scroll_to_arrivals_images()
 
         basket_price = productpage.get_basket_price()
         homepage.open_javascript_arrival_add_to_basket()
-        assert (basket_price + productpage.get_product_price(), productpage.get_basket_price())
+        assert basket_price + productpage.get_product_price() == productpage.get_basket_price()
         product_name = productpage.get_product_name()
         productpage.click_basket_price()
         basket_items = basketpage.get_basket_items()
-        assert product_name in basket_items, True
+        assert product_name in basket_items
         productpage.click_basket_price()
         basketpage.verify_items_in_basket_page()
         basketpage.enter_coupon_code("krishnasakinala")

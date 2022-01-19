@@ -17,7 +17,7 @@ class BasketPage(PageBase):
     @allure.step("Verify all three books added to basket items list")
     def verify_items_in_basket_page(self):
         elements = self.driver.find_elements(*BasketPageLocators.product_name)
-        assert (len(elements), 3)
+        assert len(elements) == 3
 
     @allure.step("Get basket items list")
     def get_basket_items(self):

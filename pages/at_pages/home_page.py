@@ -44,7 +44,7 @@ class HomePage(PageBase):
     @allure.step("Scroll to arrivals images")
     def scroll_to_arrivals_images(self):
         driver_helper.scroll_to_element(*HomePageLocators.arrivals_images, 2)
-        assert (driver_helper.is_element_present(*HomePageLocators.new_arrivals_link), True)
+        assert driver_helper.is_element_present(*HomePageLocators.new_arrivals_link) == True
 
     @allure.step("Get new arrivals count from home screen")
     def get_arrivals_count(self):
@@ -62,7 +62,7 @@ class HomePage(PageBase):
         product_page.click_add_to_basket()
         actual_message = product_page.get_success_message().split("\n")[1]
         expected_message = "“" + driver_helper.get_attribute_text(*ProductPageLocators.product_title, "text") + "” has been added to your basket."
-        assert (actual_message, expected_message)
+        assert actual_message == expected_message
 
     @allure.step("Open html book and add to basket")
     def open_html_arrival_add_to_basket(self):
@@ -74,7 +74,7 @@ class HomePage(PageBase):
         product_page.click_add_to_basket()
         actual_message = product_page.get_success_message().split("\n")[1]
         expected_message = "“" + driver_helper.get_attribute_text(*ProductPageLocators.product_title, "text") + "” has been added to your basket."
-        assert (actual_message, expected_message)
+        assert actual_message == expected_message
 
     @allure.step("Open javascript book and add to basket")
     def open_javascript_arrival_add_to_basket(self):
@@ -86,4 +86,4 @@ class HomePage(PageBase):
         product_page.click_add_to_basket()
         actual_message = product_page.get_success_message().split("\n")[1]
         expected_message = "“" + driver_helper.get_attribute_text(*ProductPageLocators.product_title, "text") + "” has been added to your basket."
-        assert (actual_message, expected_message)
+        assert actual_message == expected_message

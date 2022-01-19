@@ -1,0 +1,142 @@
+[32mINFO    [0m WDM:logger.py:12 
+[32mINFO    [0m WDM:logger.py:12 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:12 Current google-chrome version is 97.0.4692
+[32mINFO    [0m WDM:logger.py:12 Get LATEST driver version for 97.0.4692
+[32mINFO    [0m WDM:logger.py:12 Driver [/Users/sreesairanganadh/.wdm/drivers/chromedriver/mac64/97.0.4692.71/chromedriver] found in cache
+[32mINFO    [0m selenium:webdriver_listener.py:19 Navigating to http://practice.automationtesting.in/
+[32mINFO    [0m selenium:webdriver_listener.py:22 http://practice.automationtesting.in/ opened
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //ul[@id='main-nav']/li[1]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //ul[@id='main-nav']/li[1] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //ul[@id='main-nav']/li[1]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //ul[@id='main-nav']/li[1] found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on menu-item menu-item-type-post_type menu-item-object-page
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //a[text()='Home']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //a[text()='Home'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //a[text()='Home']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //a[text()='Home'] found
+[32mINFO    [0m selenium:webdriver_listener.py:34 Clicking on Home
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by tag name h2
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by tag name h2 found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on attachment-shop_catalog size-shop_catalog wp-post-image
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='product_title entry-title']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='product_title entry-title'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //button[@type='submit']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //button[@type='submit'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //button[@type='submit']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //button[@type='submit'] found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on single_add_to_cart_button button alt
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='woocommerce-message']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='woocommerce-message'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='woocommerce-message']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='woocommerce-message'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='product_title entry-title']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='product_title entry-title'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='product_title entry-title']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='product_title entry-title'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[contains(@class, 'description_tab')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[contains(@class, 'description_tab')] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[contains(@class, 'description_tab')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[contains(@class, 'description_tab')] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[contains(@class, 'description_tab')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[contains(@class, 'description_tab')] found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on description_tab active
+[32mINFO    [0m selenium:webdriver_listener.py:38 description_tab active clicked
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@id='tab-description']//p
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@id='tab-description']//p found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by id site-logo
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by id site-logo found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by id site-logo
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by id site-logo found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on 
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by tag name h2
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by tag name h2 found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on attachment-shop_catalog size-shop_catalog wp-post-image
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='product_title entry-title']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='product_title entry-title'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //button[@type='submit']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //button[@type='submit'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //button[@type='submit']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //button[@type='submit'] found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on single_add_to_cart_button button alt
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='woocommerce-message']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='woocommerce-message'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='woocommerce-message']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='woocommerce-message'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='product_title entry-title']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='product_title entry-title'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='product_title entry-title']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='product_title entry-title'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[contains(@class, 'description_tab')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[contains(@class, 'description_tab')] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[contains(@class, 'description_tab')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[contains(@class, 'description_tab')] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[contains(@class, 'description_tab')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[contains(@class, 'description_tab')] found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on description_tab active
+[32mINFO    [0m selenium:webdriver_listener.py:38 description_tab active clicked
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@id='tab-description']//p
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@id='tab-description']//p found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by id site-logo
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by id site-logo found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by id site-logo
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by id site-logo found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on 
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by tag name h2
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by tag name h2 found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on attachment-shop_catalog size-shop_catalog wp-post-image
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='product_title entry-title']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='product_title entry-title'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //button[@type='submit']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //button[@type='submit'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //button[@type='submit']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //button[@type='submit'] found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on single_add_to_cart_button button alt
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='woocommerce-message']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='woocommerce-message'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='woocommerce-message']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='woocommerce-message'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='product_title entry-title']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='product_title entry-title'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='product_title entry-title']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='product_title entry-title'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[contains(@class, 'description_tab')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[contains(@class, 'description_tab')] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[contains(@class, 'description_tab')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[contains(@class, 'description_tab')] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[contains(@class, 'description_tab')]
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[contains(@class, 'description_tab')] found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on description_tab active
+[32mINFO    [0m selenium:webdriver_listener.py:38 description_tab active clicked
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@id='tab-description']//p
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@id='tab-description']//p found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='amount']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='amount'] found
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='amount']
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='amount'] found
+[32mINFO    [0m selenium:webdriver_listener.py:32 Clicking on amount
+[32mINFO    [0m selenium:webdriver_listener.py:25 Searching for element by xpath //*[@class='product-name']//a
+[32mINFO    [0m selenium:webdriver_listener.py:28 Element by xpath //*[@class='product-name']//a found
+[32mINFO    [0m selenium:webdriver_listener.py:46 Driver quitting
+[32mINFO    [0m selenium:webdriver_listener.py:49 Driver quitted
