@@ -1,0 +1,10 @@
+2022-01-18 23:48:51,432: INFO: 
+
+2022-01-18 23:48:51,433: INFO: ====== WebDriver manager ======
+2022-01-18 23:48:51,496: INFO: Current google-chrome version is 97.0.4692
+2022-01-18 23:48:51,497: INFO: Get LATEST driver version for 97.0.4692
+2022-01-18 23:48:52,153: INFO: Driver [/Users/sreesairanganadh/.wdm/drivers/chromedriver/mac64/97.0.4692.71/chromedriver] found in cache
+2022-01-18 23:48:54,332: INFO: Navigating to http://www.demoblaze.com/
+2022-01-18 23:48:57,621: INFO: http://www.demoblaze.com/ opened
+2022-01-18 23:48:57,626: INFO: Driver quitting
+2022-01-18 23:48:57,708: INFO: Driver quitted

@@ -1,0 +1,6 @@
+{
+  "browser": "chrome",
+  "headless_mode": false,
+  "base_url": "http://practice.automationtesting.in/",
+  "timeout": 10
+}
