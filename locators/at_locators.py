@@ -21,7 +21,7 @@ class ProductPageLocators:
     reviews_tab = (By.XPATH, "//*[contains(@class, 'reviews_tab')]")
     description = (By.XPATH, "//*[@id='tab-description']//p")
     review_reply_title = (By.ID, "reply-title")
-    product_price = (By.XPATH, "//*[@class='woocommerce-Price-amount amount']")
+    product_price = (By.XPATH, "(//*[@class='summary entry-summary']//*[@class='woocommerce-Price-amount amount'])[last()]")
     product_stock = (By.XPATH, "//*[@class='stock in-stock']")
     error_message = (By.XPATH, "//*[@class='woocommerce-error']")
 

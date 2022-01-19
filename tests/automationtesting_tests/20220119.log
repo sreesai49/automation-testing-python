@@ -4529,3 +4529,284 @@ from unknown error: web view not found
 
 2022-01-19 14:41:05,303: INFO: Driver quitting
 2022-01-19 14:41:05,463: INFO: Driver quitted
+2022-01-19 15:39:34,883: INFO: 
+
+2022-01-19 15:39:34,898: INFO: ====== WebDriver manager ======
+2022-01-19 15:39:34,943: INFO: Current google-chrome version is 97.0.4692
+2022-01-19 15:39:34,944: INFO: Get LATEST driver version for 97.0.4692
+2022-01-19 15:39:35,522: INFO: Driver [/Users/sreesairanganadh/.wdm/drivers/chromedriver/mac64/97.0.4692.71/chromedriver] found in cache
+2022-01-19 15:39:38,010: INFO: Navigating to http://practice.automationtesting.in/
+2022-01-19 15:39:48,815: INFO: http://practice.automationtesting.in/ opened
+2022-01-19 15:39:48,958: INFO: Searching for element by xpath //ul[@id='main-nav']/li[1]
+2022-01-19 15:39:48,971: INFO: Element by xpath //ul[@id='main-nav']/li[1] found
+2022-01-19 15:39:48,986: INFO: Searching for element by xpath //ul[@id='main-nav']/li[1]
+2022-01-19 15:39:48,995: INFO: Element by xpath //ul[@id='main-nav']/li[1] found
+2022-01-19 15:39:49,025: INFO: Clicking on menu-item menu-item-type-post_type menu-item-object-page
+2022-01-19 15:39:55,307: INFO: Searching for element by xpath //a[text()='Home']
+2022-01-19 15:39:55,317: INFO: Element by xpath //a[text()='Home'] found
+2022-01-19 15:39:55,328: INFO: Searching for element by xpath //a[text()='Home']
+2022-01-19 15:39:55,333: INFO: Element by xpath //a[text()='Home'] found
+2022-01-19 15:39:55,341: INFO: Clicking on Home
+2022-01-19 15:39:56,789: INFO: Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+2022-01-19 15:39:56,799: INFO: Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+2022-01-19 15:39:56,806: INFO: Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+2022-01-19 15:39:56,812: INFO: Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+2022-01-19 15:39:56,836: INFO: Searching for element by tag name h2
+2022-01-19 15:39:56,846: INFO: Element by tag name h2 found
+2022-01-19 15:39:56,853: INFO: Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+2022-01-19 15:39:56,859: INFO: Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+2022-01-19 15:39:56,866: INFO: Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+2022-01-19 15:39:56,876: INFO: Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+2022-01-19 15:39:56,877: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:39:56,887: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:39:56,899: INFO: Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+2022-01-19 15:39:57,049: INFO: Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+2022-01-19 15:39:57,064: INFO: Clicking on attachment-shop_catalog size-shop_catalog wp-post-image
+2022-01-19 15:39:59,060: INFO: Searching for element by xpath //*[@class='product_title entry-title']
+2022-01-19 15:39:59,070: INFO: Element by xpath //*[@class='product_title entry-title'] found
+2022-01-19 15:39:59,079: INFO: Searching for element by xpath //button[@type='submit']
+2022-01-19 15:39:59,088: INFO: Element by xpath //button[@type='submit'] found
+2022-01-19 15:39:59,097: INFO: Searching for element by xpath //button[@type='submit']
+2022-01-19 15:39:59,103: INFO: Element by xpath //button[@type='submit'] found
+2022-01-19 15:39:59,112: INFO: Clicking on single_add_to_cart_button button alt
+2022-01-19 15:40:00,151: INFO: Searching for element by xpath //*[@class='woocommerce-message']
+2022-01-19 15:40:00,161: INFO: Element by xpath //*[@class='woocommerce-message'] found
+2022-01-19 15:40:00,170: INFO: Searching for element by xpath //*[@class='woocommerce-message']
+2022-01-19 15:40:00,177: INFO: Element by xpath //*[@class='woocommerce-message'] found
+2022-01-19 15:40:00,188: INFO: Searching for element by xpath //*[@class='product_title entry-title']
+2022-01-19 15:40:00,194: INFO: Element by xpath //*[@class='product_title entry-title'] found
+2022-01-19 15:40:12,547: INFO: Searching for element by xpath //*[@class='woocommerce-Price-amount amount']
+2022-01-19 15:40:12,564: INFO: Element by xpath //*[@class='woocommerce-Price-amount amount'] found
+2022-01-19 15:40:12,576: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:40:12,586: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:40:20,737: INFO: Searching for element by xpath //*[@class='woocommerce-Price-amount amount']
+2022-01-19 15:40:20,743: INFO: Element by xpath //*[@class='woocommerce-Price-amount amount'] found
+2022-01-19 15:40:20,750: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:40:20,755: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:40:20,760: INFO: Searching for element by xpath //*[@class='product_title entry-title']
+2022-01-19 15:40:20,765: INFO: Element by xpath //*[@class='product_title entry-title'] found
+2022-01-19 15:40:20,770: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:40:20,776: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:40:20,782: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:40:20,787: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:40:20,796: INFO: Clicking on amount
+2022-01-19 15:40:23,662: INFO: Searching for element by xpath //*[@class='product-name']//a
+2022-01-19 15:40:23,671: INFO: Element by xpath //*[@class='product-name']//a found
+2022-01-19 15:40:23,683: INFO: Searching for element by xpath //*[@class='product-remove']/a
+2022-01-19 15:40:23,692: INFO: Element by xpath //*[@class='product-remove']/a found
+2022-01-19 15:40:23,700: INFO: Searching for element by xpath //*[@class='product-remove']/a
+2022-01-19 15:40:23,706: INFO: Element by xpath //*[@class='product-remove']/a found
+2022-01-19 15:40:23,714: INFO: Clicking on ×
+2022-01-19 15:40:23,757: INFO: × clicked
+2022-01-19 15:40:23,757: INFO: Searching for element by id site-logo
+2022-01-19 15:40:23,765: INFO: Element by id site-logo found
+2022-01-19 15:40:23,772: INFO: Searching for element by id site-logo
+2022-01-19 15:40:23,776: INFO: Element by id site-logo found
+2022-01-19 15:40:23,784: INFO: Clicking on 
+2022-01-19 15:40:24,815: INFO: Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+2022-01-19 15:40:24,823: INFO: Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+2022-01-19 15:40:24,831: INFO: Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+2022-01-19 15:40:24,836: INFO: Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+2022-01-19 15:40:24,855: INFO: Searching for element by tag name h2
+2022-01-19 15:40:24,863: INFO: Element by tag name h2 found
+2022-01-19 15:40:24,871: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:40:24,879: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:40:24,890: INFO: Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+2022-01-19 15:40:24,900: INFO: Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+2022-01-19 15:40:24,910: INFO: Clicking on attachment-shop_catalog size-shop_catalog wp-post-image
+2022-01-19 15:40:25,792: INFO: Searching for element by xpath //*[@class='product_title entry-title']
+2022-01-19 15:40:25,802: INFO: Element by xpath //*[@class='product_title entry-title'] found
+2022-01-19 15:40:25,810: INFO: Searching for element by xpath //button[@type='submit']
+2022-01-19 15:40:25,819: INFO: Element by xpath //button[@type='submit'] found
+2022-01-19 15:40:25,826: INFO: Searching for element by xpath //button[@type='submit']
+2022-01-19 15:40:25,832: INFO: Element by xpath //button[@type='submit'] found
+2022-01-19 15:40:25,840: INFO: Clicking on single_add_to_cart_button button alt
+2022-01-19 15:40:26,735: INFO: Searching for element by xpath //*[@class='woocommerce-message']
+2022-01-19 15:40:26,746: INFO: Element by xpath //*[@class='woocommerce-message'] found
+2022-01-19 15:40:26,755: INFO: Searching for element by xpath //*[@class='woocommerce-message']
+2022-01-19 15:40:26,761: INFO: Element by xpath //*[@class='woocommerce-message'] found
+2022-01-19 15:40:26,775: INFO: Searching for element by xpath //*[@class='product_title entry-title']
+2022-01-19 15:40:26,782: INFO: Element by xpath //*[@class='product_title entry-title'] found
+2022-01-19 15:40:43,081: INFO: Searching for element by xpath //*[@class='woocommerce-Price-amount amount']
+2022-01-19 15:40:43,100: INFO: Element by xpath //*[@class='woocommerce-Price-amount amount'] found
+2022-01-19 15:40:43,118: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:40:43,138: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:40:48,319: INFO: Searching for element by xpath //*[@class='woocommerce-Price-amount amount']
+2022-01-19 15:40:48,324: INFO: Element by xpath //*[@class='woocommerce-Price-amount amount'] found
+2022-01-19 15:40:48,328: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:40:48,334: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:40:58,964: INFO: Searching for element by xpath //*[@class='woocommerce-Price-amount amount']
+2022-01-19 15:40:58,978: INFO: Element by xpath //*[@class='woocommerce-Price-amount amount'] found
+2022-01-19 15:40:58,985: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:40:58,991: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:41:03,054: INFO: Searching for element by xpath //*[@class='woocommerce-Price-amount amount']
+2022-01-19 15:41:03,061: INFO: Element by xpath //*[@class='woocommerce-Price-amount amount'] found
+2022-01-19 15:46:52,330: INFO: Driver quitting
+2022-01-19 15:46:52,333: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10fd9db10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/b85a5313a2661be75b6afde4ba6b6948
+2022-01-19 15:46:52,333: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x111160750>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/b85a5313a2661be75b6afde4ba6b6948
+2022-01-19 15:46:52,334: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x111160450>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/b85a5313a2661be75b6afde4ba6b6948
+2022-01-19 15:46:52,338: INFO: Driver quitted
+2022-01-19 15:47:00,631: INFO: 
+
+2022-01-19 15:47:00,632: INFO: ====== WebDriver manager ======
+2022-01-19 15:47:00,787: INFO: Current google-chrome version is 97.0.4692
+2022-01-19 15:47:00,788: INFO: Get LATEST driver version for 97.0.4692
+2022-01-19 15:47:01,343: INFO: Driver [/Users/sreesairanganadh/.wdm/drivers/chromedriver/mac64/97.0.4692.71/chromedriver] found in cache
+2022-01-19 15:47:03,645: INFO: Navigating to http://practice.automationtesting.in/
+2022-01-19 15:47:13,597: INFO: http://practice.automationtesting.in/ opened
+2022-01-19 15:47:13,742: INFO: Searching for element by xpath //ul[@id='main-nav']/li[1]
+2022-01-19 15:47:13,756: INFO: Element by xpath //ul[@id='main-nav']/li[1] found
+2022-01-19 15:47:13,775: INFO: Searching for element by xpath //ul[@id='main-nav']/li[1]
+2022-01-19 15:47:13,781: INFO: Element by xpath //ul[@id='main-nav']/li[1] found
+2022-01-19 15:47:13,796: INFO: Clicking on menu-item menu-item-type-post_type menu-item-object-page
+2022-01-19 15:47:17,333: INFO: Searching for element by xpath //a[text()='Home']
+2022-01-19 15:47:17,344: INFO: Element by xpath //a[text()='Home'] found
+2022-01-19 15:47:17,355: INFO: Searching for element by xpath //a[text()='Home']
+2022-01-19 15:47:17,361: INFO: Element by xpath //a[text()='Home'] found
+2022-01-19 15:47:17,369: INFO: Clicking on Home
+2022-01-19 15:47:18,728: INFO: Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+2022-01-19 15:47:18,736: INFO: Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+2022-01-19 15:47:18,743: INFO: Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+2022-01-19 15:47:18,747: INFO: Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+2022-01-19 15:47:18,766: INFO: Searching for element by tag name h2
+2022-01-19 15:47:18,775: INFO: Element by tag name h2 found
+2022-01-19 15:47:18,783: INFO: Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+2022-01-19 15:47:18,790: INFO: Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+2022-01-19 15:47:18,797: INFO: Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+2022-01-19 15:47:18,806: INFO: Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+2022-01-19 15:47:18,806: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:47:18,814: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:47:18,827: INFO: Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+2022-01-19 15:47:18,974: INFO: Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+2022-01-19 15:47:18,983: INFO: Clicking on attachment-shop_catalog size-shop_catalog wp-post-image
+2022-01-19 15:47:20,608: INFO: Searching for element by xpath //*[@class='product_title entry-title']
+2022-01-19 15:47:20,618: INFO: Element by xpath //*[@class='product_title entry-title'] found
+2022-01-19 15:47:20,626: INFO: Searching for element by xpath //button[@type='submit']
+2022-01-19 15:47:20,635: INFO: Element by xpath //button[@type='submit'] found
+2022-01-19 15:47:20,642: INFO: Searching for element by xpath //button[@type='submit']
+2022-01-19 15:47:20,646: INFO: Element by xpath //button[@type='submit'] found
+2022-01-19 15:47:20,652: INFO: Clicking on single_add_to_cart_button button alt
+2022-01-19 15:47:24,143: INFO: Searching for element by xpath //*[@class='woocommerce-message']
+2022-01-19 15:47:24,154: INFO: Element by xpath //*[@class='woocommerce-message'] found
+2022-01-19 15:47:24,163: INFO: Searching for element by xpath //*[@class='woocommerce-message']
+2022-01-19 15:47:24,168: INFO: Element by xpath //*[@class='woocommerce-message'] found
+2022-01-19 15:47:24,179: INFO: Searching for element by xpath //*[@class='product_title entry-title']
+2022-01-19 15:47:24,184: INFO: Element by xpath //*[@class='product_title entry-title'] found
+2022-01-19 15:47:24,193: INFO: Searching for element by xpath (//*[@class='summary entry-summary']//*[@class='woocommerce-Price-amount amount'])[last()]
+2022-01-19 15:47:24,201: INFO: Element by xpath (//*[@class='summary entry-summary']//*[@class='woocommerce-Price-amount amount'])[last()] found
+2022-01-19 15:47:24,213: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:47:24,218: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:47:24,228: INFO: Searching for element by xpath //*[@class='product_title entry-title']
+2022-01-19 15:47:24,283: INFO: Element by xpath //*[@class='product_title entry-title'] found
+2022-01-19 15:47:24,288: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:47:24,295: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:47:24,302: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:47:24,307: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:47:24,315: INFO: Clicking on amount
+2022-01-19 15:47:26,191: INFO: Searching for element by xpath //*[@class='product-name']//a
+2022-01-19 15:47:26,201: INFO: Element by xpath //*[@class='product-name']//a found
+2022-01-19 15:47:26,212: INFO: Searching for element by xpath //*[@class='product-remove']/a
+2022-01-19 15:47:26,221: INFO: Element by xpath //*[@class='product-remove']/a found
+2022-01-19 15:47:26,228: INFO: Searching for element by xpath //*[@class='product-remove']/a
+2022-01-19 15:47:26,233: INFO: Element by xpath //*[@class='product-remove']/a found
+2022-01-19 15:47:26,240: INFO: Clicking on ×
+2022-01-19 15:47:26,283: INFO: × clicked
+2022-01-19 15:47:26,283: INFO: Searching for element by id site-logo
+2022-01-19 15:47:26,405: INFO: Element by id site-logo found
+2022-01-19 15:47:26,413: INFO: Searching for element by id site-logo
+2022-01-19 15:47:26,423: INFO: Element by id site-logo found
+2022-01-19 15:47:26,430: INFO: Clicking on 
+2022-01-19 15:47:27,799: INFO: Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+2022-01-19 15:47:27,810: INFO: Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+2022-01-19 15:47:27,819: INFO: Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+2022-01-19 15:47:27,825: INFO: Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+2022-01-19 15:47:27,847: INFO: Searching for element by tag name h2
+2022-01-19 15:47:27,852: INFO: Element by tag name h2 found
+2022-01-19 15:47:27,862: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:47:27,867: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:47:27,879: INFO: Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+2022-01-19 15:47:27,886: INFO: Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+2022-01-19 15:47:27,894: INFO: Clicking on attachment-shop_catalog size-shop_catalog wp-post-image
+2022-01-19 15:47:29,107: INFO: Searching for element by xpath //*[@class='product_title entry-title']
+2022-01-19 15:47:29,113: INFO: Element by xpath //*[@class='product_title entry-title'] found
+2022-01-19 15:47:29,120: INFO: Searching for element by xpath //button[@type='submit']
+2022-01-19 15:47:29,125: INFO: Element by xpath //button[@type='submit'] found
+2022-01-19 15:47:29,132: INFO: Searching for element by xpath //button[@type='submit']
+2022-01-19 15:47:29,137: INFO: Element by xpath //button[@type='submit'] found
+2022-01-19 15:47:29,145: INFO: Clicking on single_add_to_cart_button button alt
+2022-01-19 15:47:30,375: INFO: Searching for element by xpath //*[@class='woocommerce-message']
+2022-01-19 15:47:30,381: INFO: Element by xpath //*[@class='woocommerce-message'] found
+2022-01-19 15:47:30,392: INFO: Searching for element by xpath //*[@class='woocommerce-message']
+2022-01-19 15:47:30,397: INFO: Element by xpath //*[@class='woocommerce-message'] found
+2022-01-19 15:47:30,408: INFO: Searching for element by xpath //*[@class='product_title entry-title']
+2022-01-19 15:47:30,413: INFO: Element by xpath //*[@class='product_title entry-title'] found
+2022-01-19 15:47:30,422: INFO: Searching for element by xpath (//*[@class='summary entry-summary']//*[@class='woocommerce-Price-amount amount'])[last()]
+2022-01-19 15:47:30,427: INFO: Element by xpath (//*[@class='summary entry-summary']//*[@class='woocommerce-Price-amount amount'])[last()] found
+2022-01-19 15:47:30,437: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:47:30,441: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:47:30,451: INFO: Searching for element by xpath //*[@class='product_title entry-title']
+2022-01-19 15:47:30,455: INFO: Element by xpath //*[@class='product_title entry-title'] found
+2022-01-19 15:47:30,460: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:47:30,464: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:47:30,471: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:47:30,475: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:47:30,616: INFO: Clicking on amount
+2022-01-19 15:47:32,262: INFO: Searching for element by xpath //*[@class='product-name']//a
+2022-01-19 15:47:32,268: INFO: Element by xpath //*[@class='product-name']//a found
+2022-01-19 15:47:32,281: INFO: Searching for element by xpath //*[@class='product-remove']/a
+2022-01-19 15:47:32,286: INFO: Element by xpath //*[@class='product-remove']/a found
+2022-01-19 15:47:32,293: INFO: Searching for element by xpath //*[@class='product-remove']/a
+2022-01-19 15:47:32,298: INFO: Element by xpath //*[@class='product-remove']/a found
+2022-01-19 15:47:32,304: INFO: Clicking on ×
+2022-01-19 15:47:32,461: INFO: × clicked
+2022-01-19 15:47:32,461: INFO: Searching for element by id site-logo
+2022-01-19 15:47:32,469: INFO: Element by id site-logo found
+2022-01-19 15:47:32,480: INFO: Searching for element by id site-logo
+2022-01-19 15:47:32,487: INFO: Element by id site-logo found
+2022-01-19 15:47:32,497: INFO: Clicking on 
+2022-01-19 15:47:33,812: INFO: Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+2022-01-19 15:47:33,817: INFO: Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+2022-01-19 15:47:33,824: INFO: Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+2022-01-19 15:47:33,829: INFO: Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+2022-01-19 15:47:33,846: INFO: Searching for element by tag name h2
+2022-01-19 15:47:33,850: INFO: Element by tag name h2 found
+2022-01-19 15:47:33,857: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:47:33,861: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:47:33,874: INFO: Searching for element by xpath //*[@class='woocommerce-LoopProduct-link']/img
+2022-01-19 15:47:33,880: INFO: Element by xpath //*[@class='woocommerce-LoopProduct-link']/img found
+2022-01-19 15:47:33,889: INFO: Clicking on attachment-shop_catalog size-shop_catalog wp-post-image
+2022-01-19 15:47:35,413: INFO: Searching for element by xpath //*[@class='product_title entry-title']
+2022-01-19 15:47:35,419: INFO: Element by xpath //*[@class='product_title entry-title'] found
+2022-01-19 15:47:35,428: INFO: Searching for element by xpath //button[@type='submit']
+2022-01-19 15:47:35,433: INFO: Element by xpath //button[@type='submit'] found
+2022-01-19 15:47:35,441: INFO: Searching for element by xpath //button[@type='submit']
+2022-01-19 15:47:35,446: INFO: Element by xpath //button[@type='submit'] found
+2022-01-19 15:47:35,454: INFO: Clicking on single_add_to_cart_button button alt
+2022-01-19 15:47:36,594: INFO: Searching for element by xpath //*[@class='woocommerce-message']
+2022-01-19 15:47:36,600: INFO: Element by xpath //*[@class='woocommerce-message'] found
+2022-01-19 15:47:36,608: INFO: Searching for element by xpath //*[@class='woocommerce-message']
+2022-01-19 15:47:36,614: INFO: Element by xpath //*[@class='woocommerce-message'] found
+2022-01-19 15:47:36,625: INFO: Searching for element by xpath //*[@class='product_title entry-title']
+2022-01-19 15:47:36,631: INFO: Element by xpath //*[@class='product_title entry-title'] found
+2022-01-19 15:47:36,643: INFO: Searching for element by xpath (//*[@class='summary entry-summary']//*[@class='woocommerce-Price-amount amount'])[last()]
+2022-01-19 15:47:36,649: INFO: Element by xpath (//*[@class='summary entry-summary']//*[@class='woocommerce-Price-amount amount'])[last()] found
+2022-01-19 15:47:36,660: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:47:36,664: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:47:36,675: INFO: Searching for element by xpath //*[@class='product_title entry-title']
+2022-01-19 15:47:36,680: INFO: Element by xpath //*[@class='product_title entry-title'] found
+2022-01-19 15:47:36,685: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:47:36,689: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:47:36,800: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:47:36,809: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:47:36,816: INFO: Clicking on amount
+2022-01-19 15:47:39,243: INFO: Searching for element by xpath //*[@class='product-name']//a
+2022-01-19 15:47:39,249: INFO: Element by xpath //*[@class='product-name']//a found
+2022-01-19 15:47:39,259: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:47:39,263: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:47:39,270: INFO: Searching for element by xpath //*[@class='amount']
+2022-01-19 15:47:39,274: INFO: Element by xpath //*[@class='amount'] found
+2022-01-19 15:47:39,281: INFO: Clicking on amount
+2022-01-19 15:47:40,768: INFO: Searching for element by xpath //*[@class='product-name']//a
+2022-01-19 15:47:40,779: INFO: Element by xpath //*[@class='product-name']//a found
+2022-01-19 15:47:41,175: INFO: Driver quitting
+2022-01-19 15:47:41,311: INFO: Driver quitted

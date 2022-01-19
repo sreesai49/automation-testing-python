@@ -1,6 +1,0 @@
-
-
-====== WebDriver manager ======
-Current google-chrome version is 97.0.4692
-Get LATEST driver version for 97.0.4692
-Driver [/Users/sreesairanganadh/.wdm/drivers/chromedriver/mac64/97.0.4692.71/chromedriver] found in cache

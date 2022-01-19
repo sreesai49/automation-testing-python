@@ -475,7 +475,6 @@ class TestHomePage:
         basket_items = basketpage.get_basket_items()
         assert product_name in basket_items
         productpage.click_basket_price()
-        basketpage.verify_items_in_basket_page()
         basketpage.enter_coupon_code("krishnasakinala")
         basketpage.click_apply_coupon_button()
         assert basketpage.get_error_message()=="The minimum spend for this coupon is ₹450.00."

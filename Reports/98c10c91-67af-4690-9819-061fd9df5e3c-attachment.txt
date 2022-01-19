@@ -1,2 +1,0 @@
-StaleElementReferenceException occured
-StaleElementReferenceException occured

@@ -1,7 +1,7 @@
 import allure
 
 from base.page_base import PageBase
-from locators.at_locators import ProductPageLocators
+from locators.at_locators import ProductPageLocators, BasketPageLocators
 from utils.driver_helper import DriverHelper
 
 
@@ -25,6 +25,7 @@ class ProductPage(PageBase):
     def click_basket_price(self):
         driver_helper.wait_till_element_visible(*ProductPageLocators.basket_price)
         driver_helper.click_element(*ProductPageLocators.basket_price)
+        driver_helper.wait_till_element_visible(*BasketPageLocators.product_name)
 
     @allure.step("Click description tab in product page")
     def click_description_tab(self):

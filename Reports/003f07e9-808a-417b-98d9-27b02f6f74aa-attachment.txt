@@ -1,9 +1,0 @@
-StaleElementReferenceException occured
-StaleElementReferenceException occured
-StaleElementReferenceException occured
-StaleElementReferenceException occured
-StaleElementReferenceException occured
-StaleElementReferenceException occured
-StaleElementReferenceException occured
-StaleElementReferenceException occured
-StaleElementReferenceException occured

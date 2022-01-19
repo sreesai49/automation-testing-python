@@ -1,3 +1,5 @@
+from time import sleep
+
 import allure
 
 from base.page_base import PageBase
@@ -33,6 +35,7 @@ class HomePage(PageBase):
             list.append(driver_helper.get_attribute_text(*HomePageLocators.slider_image, "src"))
             driver_helper.click_element(*HomePageLocators.right_arrow)
             driver_helper.wait_till_element_visible(*HomePageLocators.slider_image)
+            sleep(1)
         all_sliders = set(list)
         return all_sliders
 
